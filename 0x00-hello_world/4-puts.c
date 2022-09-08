@@ -7,13 +7,13 @@
  * Return: Always 0 (Perfect)
  */
 
-int main(void) 
+int main(void)
 {
-  char str[70];
-  
-  strcpy(str, "\"Programming is like building a multilingual puzzle");
-  
-  puts(str);
- 
-  return (0); 
+char str[70];
+
+strcpy(str, "\"Programming is like building a multilingual puzzle");
+
+puts(str);
+
+return (0); 
 }
