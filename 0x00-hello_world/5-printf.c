@@ -1,9 +1,9 @@
 # include <stdio.h>
 
 /**
- *main - entry point 
+ *main - entry point
  *
- *must alwats return 0
+ *Return: Always 0
  */
 
 int main(void)
