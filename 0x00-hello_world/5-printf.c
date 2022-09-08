@@ -1,5 +1,11 @@
 # include <stdio.h>
 
+/**
+ *main - entry point 
+ *
+ *must alwats return 0
+ */
+
 int main(void)
 {
 
