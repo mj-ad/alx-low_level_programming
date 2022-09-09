@@ -15,6 +15,6 @@ for (ch = 'A' ; ch <= 'Z' ; ch++)
 {
 putchar(tolower(ch));
 }
-putchar(space);
+putchar(newl);
 return 0;
 }
