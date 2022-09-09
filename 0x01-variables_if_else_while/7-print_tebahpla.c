@@ -10,7 +10,7 @@
 int main(void)
 {
 char ch;
-char new ='\n';
+char new = '\n';
 for (ch = 'Z' ; ch >= 'A' ; ch--)
 {
 putchar(tolower(ch));
