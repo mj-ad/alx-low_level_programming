@@ -16,5 +16,5 @@ for (ch = 'A' ; ch <= 'Z' ; ch++)
 putchar(tolower(ch));
 }
 putchar(newl);
-return 0;
+return (0);
 }
