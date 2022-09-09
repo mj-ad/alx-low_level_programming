@@ -14,6 +14,9 @@ char space = '\n';
 for (ch = 'A' ; ch <= 'Z' ; ch++)
 {
 putchar(tolower(ch));
+}
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
 putchar(ch);
 }
 putchar(space);
