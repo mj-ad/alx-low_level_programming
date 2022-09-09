@@ -3,6 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+
+/**
+ *main- entry point
+ *
+ *return: always 0
+ */
+
 int main(void)
 {
 int n;
@@ -20,6 +27,6 @@ printf("%d is negative\n", n);
 else
 {
 printf("%d is zero\n", n);
- }
+}
 return (0);
 }
