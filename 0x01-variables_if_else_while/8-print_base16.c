@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <cytpe.h>
+#include <ctype.h>
 
 /**
  *main - entry point
