@@ -1,20 +1,23 @@
 #include <stdio.h>
 #include <main.h>
 
-int printput(void)
-{
-char a = '_';
-char p = 'p';
-char u  = 'u';
-char t = 't';
-char c = 'c';
-char h = 'h';
-char i = 'a';
-char r = 'r';
-char n = '\n';
+/**
+ *main- "Prints _putchar with a new line"
+ *File: 0-putchar.c
+ *Return: Always 0 success
+ */
 
-putchar(aputchir);
-putchar(n);
+int main(void)
+{
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
 return (0);
 }
