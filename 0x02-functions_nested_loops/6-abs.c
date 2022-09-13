@@ -9,12 +9,8 @@
 
 int _abs(int a)
 {
-if (n >= 0 )
-{
-return (n);
-}
+if (a >= 0 )
+return (a);
 else
-{
-return (-n);
-}
+return (-a);
 }
