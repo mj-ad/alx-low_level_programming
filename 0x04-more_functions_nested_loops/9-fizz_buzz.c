@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <ctype.h>
 
-void main(void)
+/**
+ *main- prints the numbers from 1 to 100, followed by a new line.
+ *Return: Always 0
+ */
+
+int main(void)
 {
 int c;
 for (c = 1; c <= 100; c++)
@@ -21,6 +26,10 @@ printf("FizzBuzz ");
 else
 {
 printf("%d ", c);
+}
+if (c == 100)
+{
+continue;
 }
 }
 }
