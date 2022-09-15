@@ -8,11 +8,11 @@ void more_numbers(void)
 {
 int n = 0;
 int c;
-while (n <= 11)
+while (n <= 10)
 {
 for (c = 0 ; c <= 14 ; c++)
 {
-_putchar((n % 10) + '0');
+_putchar((c % 10) + '0');
 }
 _putchar('\n');
 }
