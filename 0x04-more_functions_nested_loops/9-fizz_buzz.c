@@ -33,5 +33,4 @@ continue;
 }
 printf(" ");
 }
-return (0);
 }
