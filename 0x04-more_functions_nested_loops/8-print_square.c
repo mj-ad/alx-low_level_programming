@@ -8,7 +8,7 @@
 void print_square(int size)
 {
 int len, br;
-if(size > 0)
+if (size > 0)
 {
 for (len = 0 ; len < size ; len++)
 {
@@ -16,7 +16,7 @@ for (br = 0; br < size ; br++)
 {
 _putchar('#');
 }
-if (len == size -1)
+if (len == size - 1)
 {
 continue;
 }
