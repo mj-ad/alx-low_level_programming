@@ -12,7 +12,9 @@ if (n > 0)
 {
 for (space = 0 ; space < n ; space++)
 {
+_putchar(' ');
 _putchar(92);
+_putchar('\n');
 }
 _putchar('\n');
 }
