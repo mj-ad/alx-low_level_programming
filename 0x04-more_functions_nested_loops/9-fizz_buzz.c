@@ -6,7 +6,7 @@
  *Return: Always 0
  */
 
-int main(void)
+void main(void)
 {
 int c;
 for (c = 1; c <= 100; c++)
@@ -33,5 +33,5 @@ continue;
 }
 printf(" ");
 }
-return (0);
+return;
 }
