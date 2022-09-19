@@ -5,7 +5,7 @@
  *@*s: value of string lenght
  *@s: pointer
  *
- *Return: the length of a string. 
+ *Return: the length of a string.
  */
 
 int _strlen(char *s)
@@ -16,5 +16,5 @@ while (*s != '\0')
 num++;
 s++;
 }
-return num;
+return (num);
 }
