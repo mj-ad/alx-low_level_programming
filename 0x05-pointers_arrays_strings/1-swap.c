@@ -10,12 +10,9 @@
 
 void swap_int(int *a, int *b)
 {
-  while (*a)
-    {
-      *b = *a;
-    }
-  while (*b)
+  if (*a != *b)
     {
       *a = *b;
+      *b = *a;
     }
 }
