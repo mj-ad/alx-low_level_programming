@@ -16,8 +16,9 @@ char temp;
 for(len = 0; len <= *s; len++)
 {
 end++;
+return(len);
 }
-for (c = 0; c < (end/2); c++)
+for (c = 0; c < (len/2); c++)
 {
 temp = *end;
 *end = *start;
