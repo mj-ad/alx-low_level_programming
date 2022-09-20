@@ -13,10 +13,13 @@ char *start;
 char *end;
 char temp;
 
-for(len = 0; len <= *s; len++)
+len = str_len(s);
+start = s;
+end = s;
+
+for(c = 0; c < len - 1; c++)
 {
 end++;
-return(len);
 }
 for (c = 0; c < (len/2); c++)
 {
