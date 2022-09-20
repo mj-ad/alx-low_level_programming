@@ -8,15 +8,27 @@
 
 void print_rev(char *s)
 {
-int len;
-
-while (s[len] != '\0')
+int len, c;
+char *start, *end, temp;
+len = str_len (s);
+start = st;
+end = st;
+for (c = 0; i < len - 1; c++)
+end++;
+for (c = 0; i < len/2; c++)
 {
-len++;
+temp = *end;
+*end = *start;
+*start = temp;
+start++;
+end--;
 }
-for (len = len - 1; len > 0; len++)
+}
+int str_len (char *s)
 {
-_putchar(s[len]);
-}
-_putchar('\n');
+int c = 0;
+while ( *(s + c) != '\0')
+c++;
+return c;
+}  
 }
