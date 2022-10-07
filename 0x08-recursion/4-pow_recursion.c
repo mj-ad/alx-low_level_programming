@@ -23,8 +23,10 @@ else
 int z = 1;
 if (y > z)
 {
-return (x * x);
 z++;
+int a;
+a = x * x;
 }
+return (a);
 }
 }
