@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#define _FILE_
 
 /**
  *main: prints the name of the file it was compiled from
