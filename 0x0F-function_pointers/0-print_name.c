@@ -4,6 +4,7 @@
 /**
  *print_name - prints name
  *@name: name of a person
+ *@f: function pointer
  *
  *Return: Nothing
  */
