@@ -7,7 +7,7 @@
  *@size: size of array
  *@cmp: function pointer
  *
- *Return: -1 if no elements match 
+ *Return: -1 if no elements match
  *        -1 if size zero orless
  *         index of of the first elemet for cmp
  */
