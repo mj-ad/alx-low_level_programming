@@ -16,10 +16,10 @@ if (action == NULL || array == NULL)
 return;
 else
 {
-while (size - 1 > 0)
+while (size - 1 !=  0)
 {
 action(*array);
- array++;
+array++;
 }
 }
 }
