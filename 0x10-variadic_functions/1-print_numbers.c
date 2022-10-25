@@ -14,7 +14,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
   unsigned int i;
-  if (*separator == NULL)
+  if (separator == NULL)
     return;
   else
     {
@@ -25,8 +25,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 	  if (va_arg(num, int) > 9)
 	    {
-	      int a;
-	      a = va_arg(num, int) / 10;
+	      int a = va_arg(num, int);
 	      _putchar(a % 10 + '0');
 	    }
 	  else
