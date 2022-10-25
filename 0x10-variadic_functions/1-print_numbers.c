@@ -23,9 +23,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
       i = 0;
       for (i = 0; i < n; i++)
 	{
-	  if (va_arg(num, int) > 9)
+	  int a = va_arg(num, int);
+	  if (a > 9)
 	    {
-	      int a = va_arg(num, int);
 	      _putchar(a % 10 + '0');
 	    }
 	  else
