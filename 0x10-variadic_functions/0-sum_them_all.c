@@ -17,9 +17,14 @@ int sum = 0, i;
 va_start(num, n);
 i = 0;
 if (n == 0)
+{
 return (0);
+}
+else
+{
 for (i = 0; i < sum ; i++)
 sum = va_arg (num, int);
+}
 va_end (num);
 return (sum);
 }
