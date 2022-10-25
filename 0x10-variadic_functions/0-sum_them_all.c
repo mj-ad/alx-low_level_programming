@@ -22,7 +22,7 @@ return (0);
 }
 else
 {
-for (i = 0; i < sum ; i++)
+for (i = 0; i < n ; i++)
 sum += va_arg (num, int);
 }
 va_end (num);
