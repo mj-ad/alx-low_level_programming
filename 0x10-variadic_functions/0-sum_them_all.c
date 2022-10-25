@@ -24,8 +24,8 @@ return (0);
 else
 {
 for (i = 0; i < n ; i++)
-sum += va_arg (num, int);
+sum += va_arg(num, int);
 }
-va_end (num);
+va_end(num);
 return (sum);
 }
