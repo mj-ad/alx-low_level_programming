@@ -1,0 +1,32 @@
+#include "main.h"
+#include <stddef.h>
+
+/**
+ *print_binary - changes decimal to binary
+ *@n: number to be changed
+ *
+ *Return: null
+ */
+
+void print_binary(unsigned long int n)
+{
+  char *b = NULL;
+  unsigned int res, temp;
+  int i, c;
+  i = 0;
+  while (n)
+    {
+      if(n)
+	{
+      temp = n >> 1;
+      res = n - (temp * n);
+      *b = res + *b;
+    }
+  i++;
+    }
+  c = i;
+  for (i = 0; i < c; b--)
+    {
+      _putchar(*b);
+    }
+}
