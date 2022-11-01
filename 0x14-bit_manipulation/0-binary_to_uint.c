@@ -13,18 +13,18 @@ unsigned int binary_to_uint(const char *b)
 unsigned int i, num, res;
 if (!b)
 return (0);
-while (*b)
+while (*b != '\0')
 {
-if (*b != 0 && *b != 1)
+if (*b != '0' && *b != '1')
 {
 return (0);
 }
 b++;
 }
-i = 0;
-num = 0;
 b--;
-while (*b)
+num = 0;
+i = 0; 
+while (*b != '\0')
 {
 res = *b - '0';
 num = num + (res << i);
