@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	char i;
-	char c;
+	int i;
+	int c;
 	int j = 1;
 	int k = 0;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		k = 0;
-		for (c = '0'; c <= '9'; c++)
+		for (c = 48; c <= 57; c++)
 		{
 			if (k < j)
 			{
