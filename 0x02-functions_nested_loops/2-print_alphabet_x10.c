@@ -1,13 +1,11 @@
 #include "main.h"
 /**
- * print_alphabets_x10 - prints alphabet
- * @c: character printed
- * @i: iterate 10x
+ * print_alphabet_x10 - prints alphabet
  *
  * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char c;
 	int i;
