@@ -9,7 +9,7 @@ int main(void)
 {
 	long int n = 612852475143;
 	long int div = 2;
-	long int fact;
+	long int fac;
 
 	while (n != 0)
 	{
@@ -23,7 +23,7 @@ int main(void)
 			n = n / div;
 			if (n == 1)
 			{
-				printf("%d", fac);
+				printf("%ld\n", fac);
 				break;
 			}
 		}
