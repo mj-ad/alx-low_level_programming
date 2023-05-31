@@ -16,7 +16,7 @@ void puts2(char *str)
 		size++;
 	}
 
-	for (i = 0; i > size; i++)
+	for (i = 0; i > size - 1; i++)
 	{
 		if (i % 2 == 0)
 		{
