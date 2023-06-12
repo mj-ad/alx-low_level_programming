@@ -18,8 +18,8 @@ int main(int argc, char *argv[])
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			putchar(argv[i][j]);
-			putchar('\n');
 		}
 	}
+	putchar('\n');
 	return (0);
 }
