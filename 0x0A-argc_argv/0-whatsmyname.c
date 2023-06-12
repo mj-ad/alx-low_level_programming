@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main- Entry
+ * main - Entry
  * @argc: count
  * @argv: string
  * Return: always 0
@@ -10,19 +11,14 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int s = 0;
 	int j;
-
-	while (**argv != 0)
-	{
-		s++;
-	}
 
 	for (i = 0; i < argc; i++)
 	{
-		for (j = 0; j < s; j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			_putchar(argv[i][j]);
+			putchar(argv[i][j]);
+			putchar('\n');
 		}
 	}
 	return (0);
