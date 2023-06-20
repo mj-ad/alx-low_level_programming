@@ -1,6 +1,5 @@
 #include "dog.h"
 /**
- * dog_t - typedef
  * new_dog - new dog
  * @name: name
  * @age: age
