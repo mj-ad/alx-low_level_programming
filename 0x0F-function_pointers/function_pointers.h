@@ -2,7 +2,9 @@
 #define _POINTERS_H_
 #include <stddef.h>
 /**
- * Function pointers
+ * _putchar - putchar
+ * @c: char
+ * Return: integer
  */
 
 int _putchar(char c);
