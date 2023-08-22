@@ -2,12 +2,12 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-    return;
+    return (0);
 }
 
 char *_strchr(char *s, char c)
 {
-    return;
+    return (0);
 }
 
 unsigned int _strspn(char *s, char *accept)
@@ -17,10 +17,10 @@ unsigned int _strspn(char *s, char *accept)
 
 char *_strpbrk(char *s, char *accept)
 {
-    return;
+    return (0);
 }
 
 char *_strstr(char *haystack, char *needle)
 {
-    return;
+    return (0);
 }

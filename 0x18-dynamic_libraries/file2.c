@@ -16,7 +16,7 @@ void _puts(char *s)
 
 char *_strcpy(char *dest, char *src)
 {
-    return;
+    return (0);
 }
 
 int _atoi(char *s)
